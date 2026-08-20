@@ -1,0 +1,9 @@
+{
+  "interface": "",
+  "data_timeout_seconds": 3.0,
+  "buffer_ms": 300,
+  "preview_enabled": true,
+  "preview_fps": 15,
+  "log_retain_days": 7,
+  "ts_packet_size": 188
+}

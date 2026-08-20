@@ -1,0 +1,30 @@
+# 虚拟环境与缓存
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# 构建产物
+build/
+dist/
+
+# 交付产物（正式发布通过 GitHub Release）
+交付/
+
+# 运行数据与日志
+logs/
+
+# 项目文档（设计/计划等，不随仓库发布）
+docs/
+
+# 授权与密钥（严禁公开）
+lic/
+config/license.lic
+tools/dev_private_key.pem
+
+# 生成数据
+test_sources/
+
+# IDE
+.idea/
+.vscode/

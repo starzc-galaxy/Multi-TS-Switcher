@@ -1,0 +1,88 @@
+[
+  {
+    "id": 2,
+    "name": "组 2",
+    "note": "示例组：5 路源 20 秒轮询",
+    "interval_seconds": 20.0,
+    "output": {
+      "address": "230.1.1.2",
+      "port": 7000,
+      "multicast": true
+    },
+    "interface": "",
+    "filler_path": "assets/filler.ts",
+    "sources": [
+      {
+        "id": 1,
+        "name": "源 1",
+        "address": "229.1.2.1",
+        "port": 7000,
+        "multicast": true,
+        "enabled": true,
+        "note": ""
+      },
+      {
+        "id": 2,
+        "name": "源 2",
+        "address": "229.1.2.2",
+        "port": 7000,
+        "multicast": true,
+        "enabled": true,
+        "note": ""
+      },
+      {
+        "id": 3,
+        "name": "源 3",
+        "address": "229.1.2.3",
+        "port": 7000,
+        "multicast": true,
+        "enabled": true,
+        "note": ""
+      },
+      {
+        "id": 4,
+        "name": "源 4",
+        "address": "229.1.2.4",
+        "port": 7000,
+        "multicast": true,
+        "enabled": true,
+        "note": ""
+      },
+      {
+        "id": 5,
+        "name": "源 5",
+        "address": "229.1.2.5",
+        "port": 7000,
+        "multicast": true,
+        "enabled": true,
+        "note": ""
+      }
+    ],
+    "enabled": true
+  },
+  {
+    "id": 3,
+    "name": "组 3",
+    "note": "",
+    "interval_seconds": 20.0,
+    "output": {
+      "address": "230.1.1.1",
+      "port": 7000,
+      "multicast": true
+    },
+    "interface": "",
+    "filler_path": "assets/filler.ts",
+    "sources": [
+      {
+        "id": 1,
+        "name": "源 1",
+        "address": "229.1.1.1",
+        "port": 7000,
+        "multicast": true,
+        "enabled": true,
+        "note": ""
+      }
+    ],
+    "enabled": true
+  }
+]
